@@ -8,7 +8,6 @@ var arr = [10,20,30,40,50,60]
 
 //Code Here
 let firstItem = arr[0] ;
-
 ////////// PROBLEM 2 //////////
 /*
   Remove the last item from the 'arr' array and store it in a variable named 'lastItemRemoved'. Console.log the array to verify you no longer have the last item.
@@ -17,8 +16,6 @@ let firstItem = arr[0] ;
 //Code Here
 let lastItemRemoved  = arr.pop();
 console.log(arr);
-
-
 ////////// PROBLEM 3 //////////
 
 // Do not edit the code below.
@@ -51,14 +48,11 @@ let evensArr = []
 
 for( let i=0; i<nums.length ; i ++)
 {
-  if(nums[i] % 2 === 0)
-  {
+  if(nums[i] % 2 === 0) {
     evensArr.push(nums[i]);
   }
-
 }
-
-  console.log(evensArr);
+console.log(evensArr);
 
 
 ////////// PROBLEM 5 //////////
